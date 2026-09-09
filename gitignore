@@ -1,0 +1,15 @@
+# Ignore all images directories anywhere in the repository
+**/images/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
