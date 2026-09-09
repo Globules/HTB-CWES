@@ -31,7 +31,7 @@ The certification focuses on practical web application penetration testing and b
 
 ## Progress
 
-**Completed:** 0 / 20  
+**Completed:** 2 / 20  
 **Current module:** Web Requests
 
 ### Status
@@ -61,7 +61,7 @@ The certification focuses on practical web application penetration testing and b
 | 17 | Attacking GraphQL | Medium | ⬜ Not Started |
 | 18 | API Attacks | Medium | ⬜ Not Started |
 | 19 | Attacking Common Applications | Medium | ⬜ Not Started |
-| 20 | Bug Bounty Hunting Process | Easy | ⬜ Not Started |
+| 20 | Bug Bounty Hunting Process | Easy | ✅ Completed |
 
 ---
 
