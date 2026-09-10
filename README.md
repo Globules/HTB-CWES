@@ -43,8 +43,8 @@ The certification focuses on practical web application penetration testing and b
 | # | Module | Difficulty | Status |
 | ---: | --- | --- | --- |
 | 01 | Web Requests | Fundamental | ✅ Completed |
-| 02 | Introduction to Web Applications | Fundamental | ⬜ Not Started |
-| 03 | Using Web Proxies | Easy | ⬜ Not Started |
+| 02 | Introduction to Web Applications | Fundamental | ✅ Completed |
+| 03 | Using Web Proxies | Easy | ✅ Completed |
 | 04 | Information Gathering - Web Edition | Easy | ⬜ Not Started |
 | 05 | Web Fuzzing | Easy | ⬜ Not Started |
 | 06 | JavaScript Deobfuscation | Easy | ⬜ Not Started |
