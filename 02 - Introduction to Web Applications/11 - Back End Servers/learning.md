@@ -1,18 +1,83 @@
 # Back End Servers — Learning
 
-## Ce que je dois être capable d'expliquer sans notes
+A `Back End Server` is the physical or virtual system that hosts the components required to run a web application.
 
-- [ ] Définir le mécanisme avec mes propres mots
-- [ ] Expliquer le fonctionnement normal avant de parler de vulnérabilité
-- [ ] Identifier la frontière de confiance / source / sink
-- [ ] Expliquer pourquoi l'exploitation fonctionne
-- [ ] Expliquer les prérequis et limites
-- [ ] Expliquer les mitigations
+It provides:
 
-## Explication avec mes propres mots
+- Hardware resources
+- Operating system
+- Application processes
+- Backend services
 
+The backend server is responsible for executing the tasks required by the web application.
 
+---
 
-## Ce que je ne comprends pas encore
+## Software
 
-- 
+A backend server commonly hosts three main components:
+
+- `Web Server`
+- `Database`
+- `Development Framework`
+
+![alt text](images/image.png)
+
+It may also contain:
+
+- Hypervisors
+- Containers
+- `WAF`
+- Additional backend services
+
+---
+
+## Common Web Stacks
+
+A `stack` is a combination of technologies commonly used together to host a web application.
+
+| Stack | Components |
+| --- | --- |
+| `LAMP` | `Linux`, `Apache`, `MySQL`, `PHP` |
+| `WAMP` | `Windows`, `Apache`, `MySQL`, `PHP` |
+| `WINS` | `Windows`, `IIS`, `.NET`, `SQL Server` |
+| `MAMP` | `macOS`, `Apache`, `MySQL`, `PHP` |
+| `XAMPP` | Cross-platform, `Apache`, `MySQL`, `PHP/PERL` |
+
+---
+
+## Hardware
+
+The backend server provides the hardware resources required by the application.
+
+Important resources include:
+
+- CPU
+- RAM
+- Storage
+- Network capacity
+
+These resources directly affect the application's performance, stability, and responsiveness.
+
+Large applications may distribute workloads across multiple backend servers.
+
+Example:
+
+```text
+Users
+  ↓
+Multiple Back End Servers
+  ↓
+Application / Database Services
+```
+
+Backend infrastructure may be hosted using:
+
+- Physical servers
+- Virtual machines
+- Data centers
+- Cloud infrastructure
+- Virtual hosts
+
+Large web applications commonly distribute their workload across several servers rather than relying on a single backend system.
+
